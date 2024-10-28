@@ -1,0 +1,149 @@
+
+/* COGS3 studyBuddy specific styles go here. */
+body {
+   font-family: 'Montserrat', sans-serif;
+}
+#title{
+    background-color:#98A8F8;
+}
+
+h1 {
+   font-weight: bold;
+   font-size: 3rem;
+   line-height: 1.5;
+   color: white;
+}
+
+h3{
+   font-family: 'Montserrat';
+   font-weight: bold;
+}
+
+p{ 
+   color:saddlebrown;
+}
+
+h2{
+   color:white;
+   font-family: 'Montserrat';
+   font-size: 1.5;
+   font-weight: bold;
+}
+.container-fluid{padding: 3% 15%;
+}
+.navbar{padding:0 0 4.5rem
+}
+.navbar-brand{ font-family:'Ubuntu';
+font-size: 2.5rem;
+font-weight: bold;
+}
+.navbar-item{
+    padding: 0 18px;
+}
+.nav-link{
+font-family:'Montserrat';
+font-size: 1.2rem;
+}
+ .download-button{ 
+    margin: 5% 5% 5% 0;
+ }
+
+ .title-image{
+    width: 60%;
+    transform: rotate(20deg);
+    position: static;
+ }
+
+
+
+#features {
+   padding: 7% 15%;
+   background-color:white ;
+ }
+
+ .feature-box {
+   text-align: center;
+   padding: 5%;
+ }
+
+ .icon{
+   color:lavender;
+   margin-bottom: 1rem;
+ }
+
+ .icon:hover {
+   color:rosybrown;
+ }
+
+ #testimonials{
+   text-align: center;
+   background-color: burlywood;
+ }
+
+ .testimonial-image{
+   width: 10%;
+   border-radius: 50%;
+   margin: 10px;
+ }
+
+ #press{
+   background-color:burlywood;
+   text-align: center;
+ }
+
+ .press-logo {
+  width: 10%;
+  margin: 20px 20px 50px;
+ }
+
+ .carousel-item {
+  padding: 7% 15%;
+ }
+
+ #pricing{
+  padding: 100px;
+  text-align: center;
+ }
+
+ .pricing-header{
+  color:black;
+ }
+
+ .pricing-column{
+  padding: 3% 2%;
+ }
+ 
+#footer{ 
+  padding: 7% 15%;
+  text-align: center;
+  color:burlywood;
+}
+
+.social-icon{
+  margin: 20px 10px;
+}
+
+ @media (max-width: 1028px){
+
+  #title{
+    text-align: center;
+  }
+  
+  .title-image{
+    position: static;
+    transform: rotate(0);
+  }
+}
+ #cta{
+  background-color: #98A8F8;
+  color: white;
+  padding: 7% 15%;
+  text-align: center;
+ }
+
+ .cta-heading{
+  font-family: 'Montserrat';
+  font-weight: bold;
+  font-size: 3.5rem;
+  line-height: 1.5;
+ }
