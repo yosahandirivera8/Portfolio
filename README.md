@@ -2,4 +2,4 @@
 
 Access my portfolio through this link! :)
 
-https://84347758.yosahandi-portfolio.pages.dev/
+https://dcb3cbc8.yosahandi-portfolio.pages.dev
